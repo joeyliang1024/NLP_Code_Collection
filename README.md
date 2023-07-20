@@ -1,1 +1,2 @@
-# NLP_Code_Collection
+# NLP程式碼合集
+## 本區為紀錄平常各個NLP小任務的程式碼
