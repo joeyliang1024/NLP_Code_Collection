@@ -1,0 +1,11 @@
+In command line:
+$ vim ~/.tmux.conf
+
+In file:
+1. press the I key on keyboard
+2. set-option -g mouse on
+3. esc
+4. :wq!
+
+In command line again:
+$ tmux source-file ~/.tmux.conf

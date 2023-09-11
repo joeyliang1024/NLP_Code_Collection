@@ -1,0 +1,27 @@
+若想要進行更新，可以輸入下列命令
+conda update conda
+
+看目前系統已經安裝幾個虛擬環境
+conda env list
+
+建立一個叫做 YOUR_NAME 的虛擬環境，並且是安裝python 3.x的版本
+conda create --name YOUR_NAME python=3.x
+
+啟動虛擬環境
+activate YOUR_NAME
+
+查看目前此虛擬環境中已經先安裝了那些東西
+conda list
+
+在此虛擬環境下安裝所需套件
+conda install PACKAGE_NAME
+
+離開虛擬環境
+deactivate
+source deactivate
+
+刪除虛擬環境中某個package
+conda remove --name YOUR_NAME PACKAGE_NAME
+
+刪除整個虛擬環境
+conda env remove --name YOUR_NAME
