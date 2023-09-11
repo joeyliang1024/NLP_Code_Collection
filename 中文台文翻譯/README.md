@@ -11,7 +11,7 @@
 - 調整hidden_size (same as embedding dimension)會影響模型計算需求。
 ## 模型結果
 |  Blue Score  |Training Data|iCorpus|iCorpus 100|
-| :----: | :----: | :----: | :----: |
+| :----  | :----: | :----: | :----: |
 | BART(有聖經) Man-Han | 0.3876 | 0.1240 | 0.1254 |
 | BART(有聖經) Han-Man | 0.3464 | 0.1737 | 0.1773 |
 | BART(無聖經) Man-Han | 0.4388 | 0.1444 | 0.1518 |
