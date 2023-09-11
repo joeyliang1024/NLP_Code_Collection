@@ -11,6 +11,7 @@
 - 調整hidden_size (same as embedding dimension)會影響模型計算需求。
 ## 模型結果
 - iCorpus 100為iCorpus人工篩選的資料集，總共100筆。
+
 |  Blue Score  |Training Data|iCorpus|iCorpus 100|
 | :----  | :----: | :----: | :----: |
 | BART(有聖經) Man-Han | 0.3876 | 0.1240 | 0.1254 |
